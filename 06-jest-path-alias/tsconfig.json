@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "CommonJS",
+    "strict": true,
+    "ignoreDeprecations": "6.0",
+    "baseUrl": ".",
+    "paths": {
+      "@utils/*": ["src/utils/*"]
+    },
+    "types": ["jest", "node"]
+  },
+  "include": ["src", "tests"]
+}
